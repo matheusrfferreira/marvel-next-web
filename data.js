@@ -334,7 +334,7 @@ export const data = [
     phase: "Four"
   },
   { 
-    id: 28, 
+    id: 29, 
     title: "Shang-Chi And The Legend Of The Ten Rings",
     poster: ShangChiAndTheLegendOfTheTenRingsPoster,
     release_year: 2021,
@@ -343,7 +343,7 @@ export const data = [
     phase: "Four"
   },
   { 
-    id: 29, 
+    id: 30, 
     title: "Eternals",
     poster: EternalsPoster,
     release_year: 2021,
@@ -352,7 +352,7 @@ export const data = [
     phase: "Four"
   },
   { 
-    id: 30, 
+    id: 31, 
     title: "Hawkeye",
     poster: HawkeyePoster,
     release_year: 2021,
@@ -361,7 +361,7 @@ export const data = [
     phase: "Four"
   },
   { 
-    id: 31, 
+    id: 32, 
     title: "Spider-Man: No Way Home",
     poster: SpiderManNoWayHomePoster,
     release_year: 2021,
@@ -370,7 +370,7 @@ export const data = [
     phase: "Four"
   },
   { 
-    id: 32, 
+    id: 33, 
     title: "Moon Knight",
     poster: MoonKnightPoster,
     release_year: 2022,
@@ -379,7 +379,7 @@ export const data = [
     phase: "Four"
   },
   { 
-    id: 33, 
+    id: 34, 
     title: "Doctor Strange In The Multiverse Of Madness",
     poster: DoctorStrangeInTheMultiverseOfMadnessPoster,
     release_year: 2022,

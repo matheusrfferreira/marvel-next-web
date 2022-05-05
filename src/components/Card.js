@@ -65,9 +65,9 @@ export default function Card({ poster, phase, title, releaseYear, runningTime, e
           />
         </Box>
         <Stack pt={10} align={'center'}>
-          <Text color={'gray.500'} fontSize={'sm'} textTransform={'uppercase'}>
+          {phase && (<Text color={'gray.500'} fontSize={'sm'} textTransform={'uppercase'}>
             Phase {phase}
-          </Text>
+          </Text>)}
           <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={500} textAlign="center">
             {title}
           </Heading>
