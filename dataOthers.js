@@ -16,6 +16,9 @@ import XMenApocalypsePoster from './assets/images/x-men-apocalypse.jpg';
 import LoganPoster from './assets/images/logan.jpg';
 import XMenDarkPhoenixPoster from './assets/images/x-men-dark-phoenix.jpg';
 import TheNewMutantsPoster from './assets/images/the-new-mutants.jpg';
+import VenomPoster from './assets/images/venom.jpg';
+import VenomLetThereBeCarnagePoster from './assets/images/venom-let-there-be-carnage.jpg';
+import MorbiusPoster from './assets/images/morbius.jpg';
 
 export const data = [
   { 
@@ -159,6 +162,30 @@ export const data = [
     title: "The New Mutants",
     poster: TheNewMutantsPoster,
     release_year: 2020,
+    running_time: 132,
+    type: "Movie",
+  },
+  { 
+    id: 19, 
+    title: "Venom",
+    poster: VenomPoster,
+    release_year: 2018,
+    running_time: 132,
+    type: "Movie",
+  },
+  { 
+    id: 20, 
+    title: "Venom: Let There Be Carnage",
+    poster: VenomLetThereBeCarnagePoster,
+    release_year: 2021,
+    running_time: 132,
+    type: "Movie",
+  },
+  { 
+    id: 21, 
+    title: "Morbius",
+    poster: MorbiusPoster,
+    release_year: 2022,
     running_time: 132,
     type: "Movie",
   },
