@@ -2,9 +2,8 @@ import { Box } from '@chakra-ui/react';
 import Head from 'next/head';
 import { Wrap, WrapItem, Flex, Spacer, Button, Collapse } from '@chakra-ui/react'
 import { Fade, ScaleFade, Slide, SlideFade } from '@chakra-ui/react'
-import Navbar from '../components/Navbar';
-import Card from '../components/Card';
-import { data } from '../../dataOthers';
+import { Navbar, Card } from '../components';
+import { data2 } from '../../db';
 
 
 export default function Others() {
@@ -12,7 +11,7 @@ export default function Others() {
   return (
     <Box>
       <Head>
-        <title>Others</title>
+        <title>Sony</title>
         <meta name="description" content="Other Universes" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -20,9 +19,7 @@ export default function Others() {
       <Navbar />
 
       <Flex align="center" justify="center" wrap="wrap">
-        {data.map((show) => (<Card key={show.id} poster={show.poster} 
-          title={show.title} phase={show.phase} releaseYear={show.release_year}
-         episodes={show.episodes} type={show.type}/>))}
+        {data2.map((show) => (<Card key={show.id} movie={show} />))}
       </Flex>
 
     </Box>

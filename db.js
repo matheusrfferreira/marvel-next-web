@@ -388,3 +388,93 @@ export const data = [
     phase: "Four"
   }
 ]
+
+
+import SpiderManPoster from './assets/images/spider-man.jpg';
+import SpiderMan2Poster from './assets/images/spider-man-2.jpg';
+import SpiderMan3Poster from './assets/images/spider-man-3.jpg';
+import TheAmazingSpiderManPoster from './assets/images/the-amazing-spider-man.jpg';
+import TheAmazingSpiderMan2Poster from './assets/images/the-amazing-spider-man-2.jpg';
+// import DeadpoolPoster from './assets/images/deadpool.jpg';
+// import Deadpool2Poster from './assets/images/deadpool-2.jpg';
+// import XMenPoster from './assets/images/x-men.jpg';
+// import X2XMenUnitedPoster from './assets/images/x2-x-men-united.jpg';
+// import XMenTheLastStandPoster from './assets/images/x-men-the-last-stand.jpg';
+// import XMenOriginsWolverinePoster from './assets/images/x-men-origins-wolverine.jpg';
+// import XMenFirstClassPoster from './assets/images/x-men-first-class.jpg';
+// import TheWolverinePoster from './assets/images/the-wolverine.jpg';
+// import XMenDaysOfFuturePastPoster from './assets/images/x-men-days-of-future-past.jpg';
+// import XMenApocalypsePoster from './assets/images/x-men-apocalypse.jpg';
+// import LoganPoster from './assets/images/logan.jpg';
+// import XMenDarkPhoenixPoster from './assets/images/x-men-dark-phoenix.jpg';
+// import TheNewMutantsPoster from './assets/images/the-new-mutants.jpg';
+import VenomPoster from './assets/images/venom.jpg';
+import VenomLetThereBeCarnagePoster from './assets/images/venom-let-there-be-carnage.jpg';
+import MorbiusPoster from './assets/images/morbius.jpg';
+
+export const data2 = [
+  { 
+    id: 1, 
+    title: "Spider-Man",
+    poster: SpiderManPoster,
+    release_year: 2002,
+    running_time: 132,
+    type: "Movie",
+  },
+  { 
+    id: 2, 
+    title: "Spider-Man 2",
+    poster: SpiderMan2Poster,
+    release_year: 2004,
+    running_time: 132,
+    type: "Movie",
+  },
+  { 
+    id: 3, 
+    title: "Spider-Man 3",
+    poster: SpiderMan3Poster,
+    release_year: 2007,
+    running_time: 132,
+    type: "Movie",
+  },
+  { 
+    id: 4, 
+    title: "The Amazing Spider-Man",
+    poster: TheAmazingSpiderManPoster,
+    release_year: 2012,
+    running_time: 132,
+    type: "Movie",
+  },
+  { 
+    id: 5, 
+    title: "The Amazing Spider-Man 2",
+    poster: TheAmazingSpiderMan2Poster,
+    release_year: 2014,
+    running_time: 132,
+    type: "Movie",
+  },
+  { 
+    id: 19, 
+    title: "Venom",
+    poster: VenomPoster,
+    release_year: 2018,
+    running_time: 132,
+    type: "Movie",
+  },
+  { 
+    id: 20, 
+    title: "Venom: Let There Be Carnage",
+    poster: VenomLetThereBeCarnagePoster,
+    release_year: 2021,
+    running_time: 132,
+    type: "Movie",
+  },
+  { 
+    id: 21, 
+    title: "Morbius",
+    poster: MorbiusPoster,
+    release_year: 2022,
+    running_time: 132,
+    type: "Movie",
+  },
+]

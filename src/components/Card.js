@@ -18,7 +18,10 @@ import {
 } from '@chakra-ui/react';
 
 
-export default function Card({ poster, phase, title, releaseYear, runningTime, episodes, type }) {
+export const Card = ({ 
+  movie, 
+}) => {
+  const { poster, phase, title, release_year, runningTime, episodes, type } = movie;
   const { isOpen, onToggle } = useDisclosure()
   return (
     <Center py={12} margin={5}>
@@ -73,7 +76,7 @@ export default function Card({ poster, phase, title, releaseYear, runningTime, e
           </Heading>
           <Stack direction={'row'} align={'center'}>
             <Text fontWeight={800} fontSize={'xl'}>
-              {releaseYear} |
+              {release_year} |
             </Text>
             <Text  color={'gray.600'}>
               {type}
@@ -108,8 +111,6 @@ export default function Card({ poster, phase, title, releaseYear, runningTime, e
           
         </Stack>
       </Box>
-
     </Center>
   );
-}
-
+};

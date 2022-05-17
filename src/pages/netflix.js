@@ -3,14 +3,14 @@ import Head from 'next/head';
 import { Wrap, WrapItem, Flex, Spacer, Button, Collapse } from '@chakra-ui/react'
 import { Fade, ScaleFade, Slide, SlideFade } from '@chakra-ui/react'
 import { Navbar, Card } from '../components';
-import { data } from '../../db';
+import { dbNetflix } from "../../database/dbNetflix";
 
 
-export default function Home() {
+export default function Netflix() {
   return (
     <Box>
       <Head>
-        <title>MCU</title>
+        <title>Netflix</title>
         <meta name="description" content="MCU Movies & Series" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -18,11 +18,9 @@ export default function Home() {
       <Navbar />
 
       <Flex align="center" justify="center" wrap="wrap">
-        {data.map((show) => (<Card key={show.id} movie={show} />))}
+        {dbNetflix.map((show) => (<Card key={show.id} movie={show} />))}
       </Flex>
 
     </Box>
   );
 };
-
-

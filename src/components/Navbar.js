@@ -18,10 +18,37 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon  } from '@chakra-ui/icons';
 
-import MarvelStudiosLogo from '../../assets/images/marvel-logo.png';
 
-
-const Links = [{link: "199999", href: "/"}, {link: "Others", href: "others"}];
+const Links = [
+  {
+    link: "MCU", 
+    href: "/"
+  }, 
+  {
+    link: "Sony", 
+    href: "sony"
+  },
+  {
+    link: "Fox", 
+    href: "fox"
+  },
+  {
+    link: "ABC", 
+    href: "abc"
+  },
+  {
+    link: "Netflix", 
+    href: "netflix"
+  },
+  {
+    link: "Hulu", 
+    href: "hulu"
+  },
+  {
+    link: "Freeform", 
+    href: "freeform"
+  }
+];
 
 const NavLink = ({ link, href }) => (
   <Link
@@ -37,7 +64,7 @@ const NavLink = ({ link, href }) => (
   </Link>
 );
 
-export default function Navbar() {
+export const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const { colorMode, toggleColorMode } = useColorMode();
   return (
